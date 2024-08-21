@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: right;
+}
+.nav-list{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: end;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-widht: 730px){
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.mobile-menu .nav-item{
+    display: block;
+    padding-top: 1.2rem;
+}
+
+.open{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+    
+}
+
+img{
+   width: 100%;
+   min-height: 100%;
+   border-radius: 10px;  
+   font-size: 400px;
+       
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: palevioletred;
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+button{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;         
+    text-align: center;         
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 16px;            
+    margin: 4px 2px;
+    border: none;            
+    border-radius: 5px;         
+    cursor: pointer; 
+}
+
+.botao-vermelho{
+    background-color: red;
+    padding: 10px 20px;         
+    text-align: center;         
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 16px;            
+    margin: 4px 2px; 
+    border: none;             
+    border-radius: 5px;         
+    cursor: pointer;  
+}
+
+.botao-azul{
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;         
+    text-align: center;         
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 16px;            
+    margin: 4px 2px;  
+    border: none;            
+    border-radius: 5px;         
+    cursor: pointer;  
+}
+
+.botao-amarelo {
+    background-color: yellow; 
+    color: white;            
+    padding: 10px 20px;    
+    text-align: center;         
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 16px;            
+    margin: 4px 2px;  
+    border: none;            
+    border-radius: 5px;         
+    cursor: pointer;       
+}
+
+.botao-amarelo:hover {
+    color: black;        
+    background-color: white;  
+    text-decoration: none;  
+}
+
+.botao-verde {
+    color: black;            
+    text-align: center;         
+    text-decoration: none;              
+    cursor: pointer;            
+}
+
+
+.botao-verde:hover {
+    color: lightgreen;           
+}
