@@ -1,43 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <base href="./">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossas Histórias</title>
+    <title>Primeiro site</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
+
 <body>
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <p>Cafés que contam histórias</p>
+                <h2>Cafés que contam histórias</h2>
             </div>
             <div class="nav-list">
-            <ul class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></ul>
-            <ul class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></ul>
-            <ul class="nav-item"><a href="https://www.instagram.com" class="nav-link"> Contatos</a></ul>
-            </div>                        
-        </nav>
-
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg"></button>
-        </div>
+                <ul>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></li>
+                    <li class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="toggleMenu()" class="fa fa-bars"></button>
+            </div>                      
+        </nav>    
 
         <div class="mobile-menu">
-            <ul class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></ul>
-            <ul class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></ul>
-            <ul class="nav-item"><a href="https://www.instagram.com" class="nav-link"> Contatos</a></ul>
+            <ul>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></li>
+                <li class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></li>
+                <li class="nav-item"><a href="https://www.instagram.com" class="nav-link">Contatos</a></li>
+            </ul>
         </div>
     </header>
+
     
     <h2>Nossas histórias</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur odio doloremque deserunt facilis. Nobis ipsum accusantium exercitationem? Quo quibusdam illum sit libero excepturi officiis sequi! Deserunt fuga consectetur facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur odio doloremque deserunt facilis. Nobis ipsum accusantium exercitationem? Quo quibusdam illum sit libero excepturi officiis sequi! Deserunt fuga consectetur facilis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor inventore dignissimos eaque reiciendis aspernatur iste eum aut mollitia ipsa provident, autem voluptate corporis error debitis unde magni, incidunt nesciunt tempora? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit eius quibusdam molestiae modi optio error dicta aperiam illum odio esse numquam consectetur eum, deserunt, corrupti laborum. Assumenda debitis eum exercitationem!</p>
 
+    <img src="assets/img/graos.jpg" alt="drink rosa">
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, fugiat. Eos modi, labore asperiores nulla magnam reiciendis non placeat deserunt unde totam alias fuga odit. Molestias exercitationem reprehenderit cupiditate asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero delectus est debitis ullam! Magnam eum eveniet aspernatur recusandae, ea veritatis reiciendis architecto sint exercitationem porro deleniti quasi itaque doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempora impedit velit iusto, perspiciatis nesciunt quae ipsa vitae sit necessitatibus vero dicta, quos, earum architecto laboriosam eveniet eius nam consectetur.</p>
     <button><a href="./index.html">Voltar página inicial </a></button>
 
     <footer>
         <div class="footer">
-            <p>Cafés que contam histórias | Todos direitos reservados</p> <br>
+            <a>Cafés que contam histórias | Todos direitos reservados</a> <br>
             <a href="mailto:#" blocked> Nosso email</a> <br>
             <a href="http://#" blocked>Nosso instagram</a>
         </div>

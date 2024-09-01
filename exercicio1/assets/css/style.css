@@ -1,14 +1,60 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 header {
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction: column; 
     align-items: right;
+}
+
+a {
+    text-decoration: none;
+    color: pink;    
+}
+
+img{
+   width: 100%;
+   max-height: 100%;
+   border-radius: 10px;  
+           
+}
+
+h1, h2{
+    font-family: "Sevillana", cursive;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    color: brown;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+footer{
+    background-color: palevioletred;
+    max-width: 100%; 
+    text-align: center;
+    color: white;
+    
+}
+
+button{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;         
+    text-align: center;         
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 16px;            
+    margin: 4px 2px;
+    border: none;            
+    border-radius: 5px;         
+    cursor: pointer; 
 }
 
 .nav-bar {
@@ -16,7 +62,6 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem 2rem;
     background-color: pink;
     color: #fff;
 }
@@ -28,7 +73,6 @@ header {
 
 .nav-list {
     display: flex;
-    gap: 1rem;
 }
 
 .nav-item {
@@ -66,12 +110,9 @@ header {
 
     .mobile-menu {
         display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
+        position: relative;
+        width: 100%;
         background-color: pink;
-        padding: 1rem;
         text-align: center;
     }
 
@@ -81,82 +122,23 @@ header {
 
     .mobile-menu ul {
         list-style: none;
-        padding: 0;
-        margin: 0;
     }
 
     .mobile-menu .nav-item {
-        padding: 1rem 0;
+        padding: 10px;
     }
 
     .mobile-menu .nav-link {
         color: #fff;
 }
-
-a{
-    text-decoration: none;
-    color: pink;
-    
 }
 
-img{
-   width: 100%;
-   min-height: 100%;
-   border-radius: 10px;  
-   font-size: 400px;
-       
-}
-
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: brown;
-    font-size: 40px;
-}
-
-h2{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: brown;
-    font-size: 30px;
-}
-
-p{
-    font-size: 16px;
-    text-align: center;
-}
-
-
-footer{
-    background-color: palevioletred;
-    padding: 20px 30px;
-    text-align: center;
-    color: white;
-    border-radius: 5px;
-}
-
-button{
-    background-color: palevioletred;
-    color: white;
-    padding: 10px 20px;         
-    text-align: center;         
-    text-decoration: none;      
-    display: inline-block;      
-    font-size: 16px;            
-    margin: 4px 2px;
-    border: none;            
-    border-radius: 5px;         
-    cursor: pointer; 
-}
 
 .botao-vermelho{
     background-color: red;
-    padding: 10px 20px;         
     text-align: center;         
     text-decoration: none;      
-    display: inline-block;      
     font-size: 16px;            
-    margin: 4px 2px; 
     border: none;             
     border-radius: 5px;         
     cursor: pointer;  

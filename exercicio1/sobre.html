@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <base href="./">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre a nossa história</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Primeiro site</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
-<body>
 
+<body>
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <p>Cafés que contam histórias</p>
+                <h2>Cafés que contam histórias</h2>
             </div>
             <div class="nav-list">
-            <ul class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></ul>
-            <ul class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></ul>
-            <ul class="nav-item"><a href="https://www.instagram.com" class="nav-link"> Contatos</a></ul>
-            </div>                        
-        </nav>
-
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg"></button>
-        </div>
+                <ul>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></li>
+                    <li class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="toggleMenu()" class="fa fa-bars"></button>
+            </div>                      
+        </nav>    
 
         <div class="mobile-menu">
-            <ul class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></ul>
-            <ul class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></ul>
-            <ul class="nav-item"><a href="https://www.instagram.com" class="nav-link"> Contatos</a></ul>
+            <ul>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre nossos cafés</a></li>
+                <li class="nav-item"><a href="nossashistorias.html" class="nav-link">Nossas histórias</a></li>
+                <li class="nav-item"><a href="https://www.instagram.com" class="nav-link">Contatos</a></li>
+            </ul>
         </div>
     </header>
+
     <h2>Sobre nossos cafés</h2>
-    <img src="/assets/img/xicaras.png" alt="cafés com grãos">
+    <img src="assets/img/xicara1.jpg" alt="cafés com grãos">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus excepturi ut. Incidunt perspiciatis unde, impedit nam consequuntur rerum aperiam non officia exercitationem ipsum, laborum expedita molestiae, ab architecto adipisci!</p>
+    <br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsum eum repudiandae laboriosam repellendus dicta eos aspernatur, facilis minus dolorum obcaecati eligendi velit consequuntur nam totam voluptates incidunt assumenda ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quod saepe asperiores corrupti ea, possimus tempore cum atque quis sunt laboriosam a perspiciatis magni error consequuntur explicabo magnam in fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, reiciendis eveniet. Neque officia inventore beatae placeat maxime. Quis voluptas repellat eveniet assumenda rem! Aliquid, delectus placeat cumque cum adipisci itaque?</p>
 
     <button><a href="./index.html">Voltar página inicial </a></button>
 
     <footer>
         <div class="footer">
-            <p>Cafés que contam histórias | Todos direitos reservados</p> <br>
+            <a>Cafés que contam histórias | Todos direitos reservados</a> <br>
             <a href="mailto:#" blocked> Nosso email</a> <br>
             <a href="http://#" blocked>Nosso instagram</a>
         </div>
